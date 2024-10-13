@@ -615,7 +615,7 @@ transform: scale(0.95);
 .top__button {
     position:fixed;
     bottom: 60px;
-    right: -80px;
+    right: 20px;
     z-index: 999;
     font-size: 25px;
     text-align: center;
@@ -629,12 +629,14 @@ transform: scale(0.95);
     background-color: #041e91;
     color: #0a0a0a;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out, opacity 0.9s ease ;
+    opacity: 0; /* Inicialmente invisible */
 }
 
 .top__button.active {
     right: 20px;
     transform: rotate(0deg);
+    opacity: 1; /* Hacer visible cuando está activo */
 }
 
 .top__button:hover {
@@ -714,6 +716,10 @@ footer {
         width:150%;
     }
     
+    .presentacion__sub-animado {
+        font-size: 24px; 
+    }
+
     .sobre-mi{
         padding:50px 90px;
     }
@@ -767,6 +773,12 @@ footer {
 
     .contacto__img{
         display:none;
+    }
+
+    .top__button {
+        width: 35px; /* Ajustar el ancho en pantallas pequeñas */
+        height: 35px; /* Ajustar la altura en pantallas pequeñas */
+        font-size: 20px; /* Ajustar el tamaño de la fuente */
     }
 
     footer {
@@ -878,6 +890,11 @@ footer {
     font-size: 14px;
 }
 
+.presentacion__sub-animado {
+    font-size: 20px; 
+    text-align: center; /* Centrar el texto */
+}
+
 .habilidades__lista,
 .aficiones__lista{
     display:grid;
@@ -920,10 +937,19 @@ footer {
     width:138%;
 }
 
+.top__button {
+    width: 36px; /* Tamaño del botón más pequeño */
+    height: 36px; /* Tamaño del botón más pequeño */
+}
+
 .footer{
     width:auto;
     height:auto;
     font-size: 12px;
+}
+
+.creador{
+    translate:45px; 
 }
 
 .navegacion__lista{

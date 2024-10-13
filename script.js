@@ -19,7 +19,10 @@ function type() {
   }
 
   // Mostrar el texto en el span con la clase presentacion__subtitulo
-  document.querySelector('.presentacion__sub-animado').textContent = currentText;
+  const subtitleElement = document.querySelector('.presentacion__sub-animado');
+  if (subtitleElement) {
+    subtitleElement.textContent = currentText;
+  }
 
   // Si ha terminado de escribir y no está borrando
   if (!isDeleting && currentText === fullText) {
@@ -65,9 +68,12 @@ navLinks.forEach(link => {
     link.addEventListener('click', (event) => {
         event.preventDefault();
         const targetId = link.getAttribute('href');
-        document.querySelector(targetId).scrollIntoView({
+        const targetElement = document.querySelector(targetId);
+    if (targetElement) {
+      targetElement.scrollIntoView({
             behavior: 'smooth'
         });
+      }  
     });
 });
 
