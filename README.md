@@ -1,24 +1,47 @@
-# Challenge ONE | Front End -  Portafolio
+# Challenge ONE | Front End -  Portafolio Oscar Andrade
 
 <p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169097543-d5ada41e-7db8-481d-9d89-cef4efdf7e05.png">
+     <img width="600" heigth="600" src="./assets/portafolio.avif">
 </p>
 
-
-### ¡Bienvenido al proyecto base del Portafolio ! Pasos principales:
+# <h1 align="center"><strong>¡Bienvenido a mi Portafolio!</strong></h1> 
 ---
-#### Marca este proyecto con una estrella ⭐
-#### Sigue las lecciones y las instrucciones de contenido 📚
 
-### Analisando el repositorio!
+## Descripción del proyecto📋
+
+Este Challenger se detalla en código de desarrollo con JavaScript para el manejo de algunas animaciones para detallar información personal, académica y profesional, aquí encontrarás 6 secciones:
+
+>```
+> 🔹Sobre mí. 
+> 🔹Habilidades. 
+> 🔹Aficiones. 
+> 🔹Formación Académica.
+> 🔹Proyectos realizados.
+> 🔹Contacto.
+>```
+
+## Modo Responsivo🔍
+
+Para dispositivos con pantalla `520px` y `768px` y `Desktop`.
+
 ---
-### Este repositorio base es una sugerencia inicial, en caso de que aún no tengas un diseño que refleje tu estilo y personalidad. Siéntete libre de modificar tu portafolio como desees, aquí encontrarás:
-#### 🔹index.html: Documento HTML concluído que puedes utilizar en tu proyecto. Las fuentes, los archivos CSS y Javascript ya están referenciados en el documento y todas las secciones contienen comentários que te ayudan a entender la estructura. Si quieres, puedes aventurarte y contruir tu propio HTML.
-#### 🔹style.css: Documento de CSS con instrucciones de estilo y algunas sugerencias de desarrollo.
-#### 🔹script.js: Documento vacío dónde puedes desarrollar tu lógica para validar el formulário, ESTA VALIDACIÓN ES CONSIDERADA UN DESAFÍO EXTRA POR LO QUE NO ES OBLIGATÓRIA SU IMPLEMENTACIÓN.
+## Tecnologías utilizadas💡
 
-#### Cuando clones o descargues el proyecto base, tendrás la siguiente presentación:
-<p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169064699-f268715c-822c-4335-b066-97a1bc1ea8e1.png">
-</p>
+- ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-blue?logo=VSCode)
+- ![JavaScript](https://img.shields.io/badge/JavaScript--orange?logo=javascript)
+- ![HTML5](https://img.shields.io/badge/HTML--orange?logo=html5)
+- ![CSS](https://img.shields.io/badge/CSS--orange?logo=css3&logoColor=blue)
+- ![GitHub](https://img.shields.io/badge/GitHub--orange?logo=github)
+---
+## Desarrollador del Proyecto👨‍💻
 
+<h1 align="center"><strong>Oscar Eduardo Andrade Reyes</strong></h1>
+
+<div align="center">
+<table>
+  <tr>
+    <td><img src="./assets/fotodesaroollador.jpg" width="115" alt="Foto del desarrollador"></td>
+    <td><img src="./assets/bandera-colombia.png" alt="Bandera de Colombia"></td>
+  </tr>
+</table>
+</div>
