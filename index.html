@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal donde se detalla información personal, académica y profesional, y se deja una sección para contacto con posibles clientes.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fuente del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Portafolio Oscar Andrade</title>
+</head>
+
+<body>
+    <!-- Menú -->
+    <header >
+        <div class="cabecera" id="cabecera">
+        <ul><li class="cabecera__titulo">Bienvenido a mi portafolio</li></ul> 
+        <!-- <img class="cabecera__logo" src="assets/vector.png" alt="Logo"> -->
+            <!-- <h2 class="cabecera__titulo">Bienvenido a mi portafolio</h2> -->
+            <nav class="navegacion">
+                <input type="checkbox" id="menu" hidden>
+                        <label class="nav_toggle" id="_toggle" for="menu">
+                            <span class="span-menu"></span>
+                            <span class="span-menu"></span>
+                            <span class="span-menu"></span>
+                        </label>
+                <ul class="navegacion__lista" id="_items">
+                    <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
+                    <li class="navegacion__elemento"><a href="#habilidades">Habilidades</a></li>
+                    <li class="navegacion__elemento"><a href="#aficiones">Aficiones</a></li>
+                    <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
+                    <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
+                    <li class="navegacion__elemento"><a href="#contacto" type="button">Contacto</a></li>
+                </ul>
+            </nav>
+            <!--Sección Tema Claro-Oscuro -->
+        </div>
+    </header>
+
+    <!-- Sección de Presentación -->
+    <section class="presentacion">
+        <img class="presentacion__foto" src="assets/fotodesaroollador.jpg" alt="Foto de perfil">
+        <div class="presentacion__contenedor">
+            <h1 class="presentacion__titulo">Hola! Soy <b> Oscar Andrade</b></h1>
+            <div class="typed__text">
+                <span class="presentacion__sub-animado"></span>
+            </div>
+            <p class="presentacion__subtitulo"> Estoy participando del proyecto Oracle ONE en Alura Latam.</p>
+            <ul class="redes">
+                <li class="redes__img"><a href="https://github.com/OscarE1830"><img src="assets/github.svg" alt="Github"></a></li>
+                <li class="redes__img"><a href="https://www.linkedin.com/in/oscar-eduardo-andrade-reyes/"><img src="assets/linkedin.svg" alt="LinkedIn"></a></li>
+                <li class="redes__img"><a href="https://app.aluracursos.com/user/oscareduardo1830"><img src="assets/alura_icon.svg" alt="Alura"></a></li>
+                <!-- <li class="redes__img"><a href="">Currículo <img src="assets/arrow.png" alt="Flecha"></a></li> -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sección sobre mí -->
+    <section class="sobre-mi" id="sobre-mi">
+        <h2 class="sobre-mi__titulo" style="--d: 0s">Sobre mí</h2>
+        <p class="sobre-mi__texto" style="--d: 0s">Me gradué como técnico y tecnólogo en ingeniería de sistemas, he trabajado en el área de sistemas en soporte técnico y analista de datos financieros.
+            Soy un apasionado por la tecnología, me motiva la idea de innovar y crear soluciones,
+            dispuesto a ayudar a otros a econtrar una salida a esos dilemas en éste grandioso mercado digital.
+        </p>
+        <!-- Firma opcional -->
+        <!-- <img class="sobre-mi__firma" src="assets/signature.png" alt="Firma"> -->
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section class="habilidades" id="habilidades">
+        <h2 class="habilidades__titulo">Habilidades</h2>
+        <ul class="habilidades__lista">
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="./assets/htlm.png" alt="icono-HTML">
+                <p class="habilidades__nombre">HTML 5</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="./assets/js_icon.png" alt="icono-JavaScript">
+                <p class="habilidades__nombre">JavaScript</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="./assets/react_icon.png" alt="icono-React">
+                <p class="habilidades__nombre">React</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="./assets/css-icon.png" alt="icono-CSS">
+                <p class="habilidades__nombre">CSS</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="./assets/vscode-icon.png" alt="icono-Vscode">
+                <p class="habilidades__nombre">Vscode</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="./assets/markdown-icon.png" alt="icono-Markdown">
+                <p class="habilidades__nombre">Markdown</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Aficiones -->
+    <section class="aficiones" id="aficiones">
+        <h2 class="aficiones__titulo">Aficiones</h2>
+        <ul class="aficiones__lista">
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="./assets/headphones_icon.png" alt="icono-Oír-música">
+                <p class="aficiones__nombre">Oír música</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="./assets/tv_icon.png" alt="icono-Ver series">
+                <p class="aficiones__nombre">Ver Tv</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="./assets/camera_icon.png" alt="icono-Tomar-fotos">
+                <p class="aficiones__nombre">Tomar fotos</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="./assets/juego.png" alt="icono-Jugar">
+                <p class="aficiones__nombre">Jugar</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="./assets/viajar.png" alt="icono-Viajar">
+                <p class="aficiones__nombre">Viajar</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="./assets/leer.png" alt="icono-Leer">
+                <p class="aficiones__nombre">Leer</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Formación académica -->
+    <section class="formacion" id="formacion">
+        <h2 class="formacion__titulo">Formación académica</h2>
+        <ul class="formacion__lista">
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="./assets/alura_logo.png" alt="Alura">
+                <div class="formacion__descripcion">
+                    <h3 class="formacion__nombre">Formación en UX Design</h3>
+                    <p class="formacion__detalle">2024 - Alura</p>
+                    <a href="https://www.aluracursos.com/" target="_blank"><img src="./assets/sitio-web.png" alt="icono visita sitio web"></a>
+                </div>
+            </li>
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="./assets/freecodecamp.jpg" alt="Freecodecamp">
+                <div class="formacion__descripcion">
+                    <h3 class="formacion__nombre">Formación en UX Design</h3>
+                    <p class="formacion__detalle">2024 - Freecodecamp</p>
+                    <a href="https://www.freecodecamp.org/" target="_blank"><img src="./assets/sitio-web.png" alt="icono visita sitio web"></a>
+                </div>
+            </li>
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="./assets/coruniversitec.avif" alt="coruniversitec">
+                <div class="formacion__descripcion">
+                    <h3 class="formacion__nombre">Tecnólogo en ingeniería de sitemas</h3>
+                    <p class="formacion__detalle">2006 - Villavicencio</p>
+                    <a href="https://coruniversitec.edu.co/" target="_blank"><img src="./assets/sitio-web.png" alt="icono visita sitio web"></a>
+                </div>
+            </li>
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="./assets/politecnico.webp" alt="politecnico">
+                <div class="formacion__descripcion">
+                    <h3 class="formacion__nombre">Técnico en ingeniería de sistemas</h3>
+                    <p class="formacion__detalle">2004 - Villavicencio</p>
+                    <a href="https://poliagro.edu.co/" target="_blank"><img src="./assets/sitio-web.png" alt="icono visita sitio web"></a>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section class="proyectos" id="proyectos">
+        <h2 class="proyectos__titulo">Proyectos</h2>   
+        <div class="proyectos__contenedor">
+            <div class="proyectos__contenedor-card">
+                <div class="proyectos__card-inner">
+                    <div class="proyectos__card-front">
+                        <img class="proyectos__img" src="./assets/Encriptador de texto.avif" alt="imagen encriptador de texto"></img>
+                        <h3 class="proyectos__nombre">Encriptador de Texto</h3>
+                    </div>
+                    <div class="proyectos__card-back">
+                        <p class="proyectos__descripcion">Este Challenger se detalla en código de desarrollo con JavaScript para encriptar y desencriptar mensajes. Utiliza una matriz de cifrado para ejecutar la acción del texto ingresado.</p>
+                        <a class="demo" href="https://oscare1830.github.io/encriptador-oscar-andrade/" target="_blank">
+                        Ver Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="proyectos__contenedor-card">
+                <div class="proyectos__card-inner">
+                    <div class="proyectos__card-front">
+                        <img class="proyectos__img" src="./assets/portafolio.avif" alt="imagen portafolio"></img>
+                        <h3 class="proyectos__nombre">Portafolio</h3>
+                    </div>
+                    <div class="proyectos__card-back">
+                        <p class="proyectos__descripcion">Portafolio que presenta información personal y profesional como desarrollador web.</p>
+                        <a class="demo" href="https://oscare1830.github.io/--/" target="_blank">
+                        Ver Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="contacto" id="contacto">
+        <h2 class="contacto__titulo title">Contáctame</h2>
+        <p class="contacto__descripcion">¿Listo para transformar tus ideas en realidad? Conversemos y hagamos que suceda."</p>
+        <form class="contacto__formulario">
+            <div class="encuadre"> <!-- Agrupa los campos dentro de un div -->
+                <div class="encuadre__img">
+                    <img class="contacto__img" src="./assets/contacto.avif" alt="Imagen de contacto">
+                </div>
+                <input class="contacto__campo" type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                <input class="contacto__campo" type="email" id="correo" name="correo" placeholder="Correo Electrónico" required>
+                <input class="contacto__campo" type="text" id="asunto" name="asunto" placeholder="Asunto" required>
+                <textarea class="contacto__campo contacto__campo--textarea" id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
+                <button class="contacto__boton" type="submit">Enviar</button>
+            </div>
+        </form>
+
+<!-----Top Button ----->
+<a class="top" href="#cabecera" aria-label="Volver al inicio">
+    <div class="top__button">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+</a>
+
+    </section>
+
+<footer class="footer ">
+    <p class="creador"><strong>&copy;2024 - Desarrollado por</strong> 
+        <a href="https://app.aluracursos.com/user/oscareduardo1830" target="_blank">
+            Oscar Andrade - Alura Latam
+        </a>
+    </p>
+</footer>
+<script src="script.js"></script>
+
+    <!--Menú Hamburguesa-->
+    <script>_toggle.onclick = () =>{
+        _items.classList.toggle("open")
+        _toggle.classList.toggle("close")
+        }
+    </script>
+
+    <!-- fontawesome kit -->
+    <script src="https://kit.fontawesome.com/4d63ed8f35.js" crossorigin="anonymous"></script>
+</body>   
+</html>
